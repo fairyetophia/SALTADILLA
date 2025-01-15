@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+body {
+    font-size: 16px; /* Base */
+    padding: 5%; /* Espaciado relativo */
+    background-color: #F22E9A;
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Asegura que ocupe toda la altura de la ventana */
+    margin: 0; /* Elimina márgenes */
+    color: #1E0540;
+    color: #50148C;
+    color: #A42EF2;
+    color: #4B1073;
+    color: #F22E9A;
+}
+
+.contenedor {
+    width: 90%; /* Ocupa el 90% del ancho de la pantalla */
+    margin: 0 auto; /* Centra el contenido */
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.bottom-right-div {
+    position: fixed; /* Fija el div en la pantalla */
+    bottom: -155px; /* Espacio desde la parte inferior */
+    margin-top: 500px;
+    right: 20px; /* Espacio desde la parte derecha */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+  
+.bottom-right-div img{
+    width: 500px;
+    margin-bottom: 150px;
+}
+
+.contenido {
+    text-align: left;
+}
+
+/*.contenido h1{
+    font-family: "Lobster", sans-serif;
+    font-size: 150px;
+    color: #F22E9A;
+}*/
+
+.contenido h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 130px;
+    color: #50148C;
+    margin-top: -10px;
+    margin-bottom: 70px;
+    font-weight: 900;
+} 
+
+.imagen-fiesta{
+    width: 700px;
+}
+
+.contenido p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: #1E0540;
+} 
+
+.contenido .click{
+    font-family: "Montserrat", sans-serif;
+    font-size: 0px;
+    color: none;
+} 
+
+.custom-audio-player {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    max-width: 450px;
+    border-radius: 10px;
+    background-color: #A42EF2;
+}
+
+.custom-audio-player p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: #1E0540;
+}
+
+.audio{
+    background-color: #A42EF2;
+}
+
+.contenido h6{
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    color: #50148C;
+} 
+
+.contenido h2{
+    font-family: "Lobster", sans-serif;
+    font-size: 50px;
+    color: #50148C;
+}
+
+.contenido .countdown-container{
+    font-family: "Lobster", sans-serif;
+    font-size: 50px;
+}
+
+.countdown-container {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+  
+.time-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.time-box span {
+    font-size: 36px;
+    font-weight: bold;
+    color: #50148C;
+}
+  
+.time-box p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #4B1073;
+}
+
+.contenido button {
+    background-color: #50148C;
+    color: #FFFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+}
+  
+.contenido  button:hover {
+    background-color: #A42EF2;
+}
+
+.map-container {
+    margin-top: 50px;
+}
+  
+.map-button {
+    background-color: #50148C;
+    color: #FFFF;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+}
+  
+.map-button:hover {
+    background-color: #A42EF2;
+}
+
+footer{
+    width: 90%; /* Ocupa el 90% del ancho de la pantalla */
+    margin: 0 auto; /* Centra el contenido */
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+}
+
+footer a{
+    text-decoration: none;
+    color: #A42EF2;
+}
+  
+  
+
+@media (max-width: 720px) {
+    body {
+        background-image: url(img/bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh; /* Asegura que ocupe toda la altura de la ventana */
+        margin: 0; /* Elimina márgenes */
+    }
+
+    .bottom-right-div {
+        position: fixed; /* Fija el div en la pantalla */
+        bottom: -95px; /* Espacio desde la parte inferior */
+        margin-top: 500px;
+        right: 0px; /* Espacio desde la parte derecha */
+        z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    }
+
+    .bottom-right-div img{
+        width: 300px;
+        margin-bottom: 90px;
+    }
+
+    .contenedor {
+        width: 90%; /* Ocupa el 90% del ancho de la pantalla */
+        margin: 0 auto; /* Centra el contenido */
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .contenido {
+        text-align: left;
+        width: auto;
+    }
+    
+    /*.contenido h1{
+        font-family: "Lobster", sans-serif;
+        font-size: 60px;
+        color: #F22E9A;
+    }*/
+    
+    .contenido h3{
+        font-family: "Montserrat", sans-serif;
+        font-size: 60px;
+        max-width: 230px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .imagen-fiesta{
+        width: 300px;
+        margin-top: -50px;
+     
+    }
+
+    .contenido .click{
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        color: #4B1073;
+    } 
+    
+    .contenido p{
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        max-width: 250px;
+    } 
+
+    .contenido h6{
+        font-size: 15px;
+        max-width: 230px;
+    } 
+
+    .custom-audio-player {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        max-width: 180px;
+        border-radius: 10px;
+    }
+
+    .custom-audio-player p {
+        font-family: "Montserrat", sans-serif;
+        font-size: 0px;
+    }
+}
